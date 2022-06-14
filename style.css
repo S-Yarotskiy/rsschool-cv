@@ -1,0 +1,285 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	line-height: 1.5;
+	font-size: 18px;
+	color: #000;
+	font-family: Cabin;
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background: #f3eeea;
+}
+
+.wrapper {
+	min-height: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+	
+}
+
+.header-container {
+	display: flex;
+	min-height: 80px;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin: 10px;
+}
+
+.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-link {
+	font-weight: 400;
+	font-size: 20px;
+	color: #CDCDCD;
+}
+
+.nav-link:hover {
+	padding-bottom: 5px;
+	color: #FAFAFA;
+	border-bottom: solid 3px #F1CDB3;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.main-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.section {
+	width: 50%;
+	padding: 2%;
+	background: white;
+}
+
+.section-profile {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 400px;
+	background-image: url("assets/img/footer-background.svg");
+	background-size: cover;
+}
+
+.photo-img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.section-profile-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.section-subtitle {
+	color: #CDCDCD;
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: 3px;
+}
+
+
+.section-title {
+	font-size: 20px;
+	font-weight: 550;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: rgb(121, 64, 34);
+	padding-bottom: 20px;
+}
+
+.main-title {
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	color: #F1CDB3;
+	font-size: 32px;
+	font-weight: 500;
+	letter-spacing: 5px;
+	line-height: 50px;
+	word-spacing: 3px;
+	text-transform: uppercase;
+	border-bottom: solid 1px #81583a;
+}
+
+.section-item a {
+	color: #d4ac90;
+}
+
+.section-item a:hover {
+	color: rgb(121, 64, 34);
+}
+.contacts-item {
+	background-size: 29px;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 45px;
+	margin: 15px;
+}
+
+.contacts-location {
+	background-image: url("assets/icons/location-pointer-2961\ \(1\).svg");
+}
+
+.contacts-Email {
+	background-image: url("assets/icons/email_icon-icons.com_50400.png");
+}
+
+.contacts-Github {
+	background-image: url("assets/icons/25231.png");
+}
+
+.contacts-Telegram {
+	background-image: url("assets/icons/telegram_icon_136124.svg");
+}
+
+.contacts-Discord {
+	background-image: url("assets/icons/5968898.png");
+}
+
+
+.skills-item {
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 45px;
+	margin: 15px;
+}
+
+.skills-html {
+	background-image: url("assets/icons/152843.png");
+}
+
+.skills-css {
+	background-image: url("assets/icons/css-3-svgrepo-com.svg");
+}
+
+.skills-js {
+	background-image: url("assets/icons/brand_javascript_icon_157913.png");
+}
+
+.skills-git {
+	background-image: url("assets/icons/Git-icon-black.svg");
+}
+
+.skills-github {
+	background-image: url("assets/icons/25231.png");
+}
+
+.skills-figma {
+	background-image: url("assets/icons/5968719.png");
+}
+
+.projects-link {
+	color: #d4ac90;
+}
+
+.projects-link:hover {
+	color: rgb(121, 64, 34);
+}
+
+.footer {
+	width: 100%;
+	background: rgb(31, 12, 12);
+	margin: 0 auto;
+}
+
+.footer-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	color: #CDCDCD;
+	padding: 20px;
+}
+
+.github{
+	padding: 20px;
+	color: #CDCDCD;
+}
+
+.github:hover {
+	color: #FAFAFA;
+}
+
+.rss {
+	width: 121px;
+	height: 45px;
+	background-image: url("./assets/icons/rss.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
