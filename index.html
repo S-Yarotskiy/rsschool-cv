@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+	<title>CV</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container header-container">
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+						<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+						<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+						<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+						<li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+						<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+						<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+						<li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container main-container">
+				<section class="section section-profile" id="profile">
+					<div class="photo">
+						<img src="assets/img/JnTHFCpOMJSV5NGWWcZVhy2waT9zKr2930qmxGCnsSa0CpYKPAEnyGzJAmgO9X5pYs1__Zj_.jpg" alt="Photo" class="photo-img">
+					</div>
+					<div class="section-profile-title">
+						<h1 class="section-title main-title">Sergey Yarotskiy</h1>
+						<h3 class="section-subtitle">Front-end developer (student)</h3>
+					</div>
+				</section>
+				<section class="section" id="contacts">
+					<h2 class="section-title">Contacts</h2>
+					<ul class="section-list">
+						<li class="section-item contacts-item contacts-location">
+						<b>Location:</b> Minsk, Belarus
+						</li>
+						<li class="section-item contacts-item contacts-Email">
+						<b>Email:</b> <a href="mailto:s.v.yarotskiy@gmail.com" title="email">s.v.yarotskiy@gmail.com</a>
+						</li>
+						<li class="section-item contacts-item contacts-Github">
+						<b>Github:</b> <a href="https://github.com/S-Yarotskiy" title="github">S-Yarotskiy</a>
+						</li>
+						<li class="section-item contacts-item contacts-Telegram">
+						<b>Telegram:</b> <a href="https://t.me/s_v_yarotskiy" title="Telegram">@s_v_yarotskiy</a>
+						</li>
+						<li class="section-item contacts-item contacts-Discord">
+						<b>Discord:</b> <a href="https://discord.gg/zUr7wWYPXE" title="Discord">S.V.Yarotskiy#5103</a>
+						</li>
+					</ul>
+				</section>
+				<section class="section section-summary" id="summary">
+					<h2 class="section-title">Summary</h2>
+					<p>I'm 30 years old. I've been working as civil engineer for seven and half years. And after all this spended time I'm completely disapointed of this profiession. Especially in Belarus.
+						So I decided to change career and now I'm starting to learning frontend development in rs-school.</p>
+				</section>
+				<section class="section" id="skills">
+					<h2 class="section-title">Skills</h2>
+					<ul class="section-list">
+						<li class="section-item skills-item skills-html">HTML5</li>
+						<li class="section-item skills-item skills-css">CSS</li>
+						<li class="section-item skills-item skills-js">JavaScript</li>
+						<li class="section-item skills-item skills-git">Git</li>
+						<li class="section-item skills-item skills-github">Github</li>
+						<li class="section-item skills-item skills-figma">Figma</li>
+					</ul>
+				</section>
+				<section class="section" id="code">
+					<h2 class="section-title">Code</h2>
+			<pre class="pre"><code>function deleteDigit(n) { 
+  let max = 0;
+  n = n.toString();	
+  for (i=0; i < n.length; i++) {
+   if (n.replace(n[i],'') > max) max = n.replace(n[i],'')
+  }
+  return +max;
+}
+			</code></pre>
+			</section>
+			<section class="section" id="courses">
+				<h2 class="section-title">Courses</h2>
+				<p>Rolling Scopes School - JS/FE Pre-School (in process)</p>
+			</section>
+			<section class="section" id="projects">
+				<h2 class="section-title">Projects</h2>
+				<a href=" https://rolling-scopes-school.github.io/s-yarotskiy-JSFE2022Q1/shelter/pages/main/index.html" class="projects-link">Shelter</a>
+			</section>
+			<section class="section section-education" id="education">
+				<h2 class="section-title">Education</h2>
+				<p>Belorusian National Technical University</p>
+			</section>
+			<section class="section section-english" id="english">
+				<h2 class="section-title">English</h2>
+				<p>A2 - Pre-Intermediate</p>
+			</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container footer-container">
+				<div>© 2022 <a href="https://github.com/S-Yarotskiy" class="github">S-Yarotskiy</a></div>
+				<a href="https://rs.school/js/" class="rss"></a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
