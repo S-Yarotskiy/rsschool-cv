@@ -190,23 +190,23 @@ body {
 }
 
 .contacts-location {
-	background-image: url(/assets/icons/location-pointer-2961\ \(1\).svg);
+	background-image: url("assets/icons/location-pointer-2961\ \(1\).svg");
 }
 
 .contacts-Email {
-	background-image: url(/assets/icons/email_icon-icons.com_50400.png);
+	background-image: url("assets/icons/email_icon-icons.com_50400.png");
 }
 
 .contacts-Github {
-	background-image: url(/assets/icons/25231.png);
+	background-image: url("assets/icons/25231.png");
 }
 
 .contacts-Telegram {
-	background-image: url(/assets/icons/telegram_icon_136124.svg);
+	background-image: url("assets/icons/telegram_icon_136124.svg");
 }
 
 .contacts-Discord {
-	background-image: url(/assets/icons/5968898.png);
+	background-image: url("assets/icons/5968898.png");
 }
 
 
@@ -219,27 +219,27 @@ body {
 }
 
 .skills-html {
-	background-image: url(/assets/icons/152843.png);
+	background-image: url("assets/icons/152843.png");
 }
 
 .skills-css {
-	background-image: url(/assets/icons/css-3-svgrepo-com.svg);
+	background-image: url("assets/icons/css-3-svgrepo-com.svg");
 }
 
 .skills-js {
-	background-image: url(/assets/icons/brand_javascript_icon_157913.png);
+	background-image: url("assets/icons/brand_javascript_icon_157913.png");
 }
 
 .skills-git {
-	background-image: url(/assets/icons/Git-icon-black.svg);
+	background-image: url("assets/icons/Git-icon-black.svg");
 }
 
 .skills-github {
-	background-image: url(/assets/icons/25231.png);
+	background-image: url("assets/icons/25231.png");
 }
 
 .skills-figma {
-	background-image: url(/assets/icons/5968719.png);
+	background-image: url("assets/icons/5968719.png");
 }
 
 .projects-link {
@@ -282,4 +282,4 @@ body {
 	background-image: url("./assets/icons/rss.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-  }
+}
