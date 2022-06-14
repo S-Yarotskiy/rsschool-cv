@@ -79,8 +79,8 @@
 					<h2 class="section-title">Code</h2>
 			<pre class="pre"><code>function deleteDigit(n) { 
   let max = 0;
-  n = n.toString();	
-  for (i=0; i < n.length; i++) {
+  n = n.toString();
+  for (i=0; i &lt; n.length; i++) {
    if (n.replace(n[i],'') > max) max = n.replace(n[i],'')
   }
   return +max;
